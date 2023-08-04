@@ -2,11 +2,11 @@
 A checkout experience prototype for automation packages using Stripe APIs
 
 ## 1st Iteration:
-- Model the business by building a product catalog
-- Build a registration process that creates a customer
-- Create a subscription and collect payment information
-- Test and monitor payment and subscription status
-- Let customers change their plan or cancel the subscription
+- [DONE] Model the business by building a product catalog
+- [DONE] Build a registration process that creates a customer
+- [DONE] Create a subscription and collect payment information
+- [DONE] Test and monitor payment and subscription status
+- [DONE] Let customers change their plan or cancel the subscription
 
 ### To Create and Activate a Subscription
 - First create a Product to model what is being sold
