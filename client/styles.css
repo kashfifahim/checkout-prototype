@@ -1,0 +1,161 @@
+/* Base styles */
+
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+margin: 0;
+padding: 0;
+}
+
+h1 {
+text-align: center;
+}
+
+h3 {
+text-align: center;
+}
+
+img {
+display: block;
+margin: 0 auto;
+}
+
+a {
+display: block;
+width: 100%;
+text-align: center;
+padding: 10px;
+background-color: #007bff;
+color: #fff;
+text-decoration: none;
+}
+
+p {
+text-align: center;
+max-width: 80%;
+margin: 20px auto;
+}
+
+form {
+max-width: 400px;
+margin: 0 auto;
+}
+
+label {
+display: block;
+margin-bottom: 10px;
+}
+
+input[type="text"] {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+}
+
+button {
+display: block;
+width: 100%;
+padding: 10px;
+background-color: #007bff;
+color: #fff;
+border: none;
+cursor: pointer;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For small screens */
+@media (max-width: 576px) {
+img {
+width: 100%;
+height: auto;
+}
+
+p {
+max-width: 100%;
+}
+
+form {
+max-width: 100%;
+}
+}
+
+/* For small screens */
+@media (max-width: 576px) {
+main {
+padding: 10px;
+}
+}
+
+
+/* For medium screens */
+@media (min-width: 577px) and (max-width: 768px) {
+img {
+width: 80%;
+height: auto;
+}
+}
+
+/* For large screens */
+@media (min-width: 769px) {
+img {
+width: 50%;
+height: auto;
+}
+
+form {
+width: 50%;
+}
+}
+
+#messages {
+border: 1px solid #ccc;
+padding: 10px;
+min-height: 100px;
+}
+
+main {
+max-width: 600px;
+margin: 0 auto;
+padding: 20px;
+}
+
+.price-list {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-top: 20px;
+}
+
+.price-list div {
+flex-basis: 48%;
+padding: 10px;
+border: 1px solid #ccc;
+margin-bottom: 20px;
+}
+
+.price-list-item {
+flex-basis: 48%;
+padding: 10px;
+border: 1px solid #ccc;
+margin-bottom: 20px;
+}
+
+input[type="text"],
+#card-element {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+span {
+font-weight: bold;
+}
+
+hr {
+margin: 20px 0;
+border: none;
+border-top: 1px solid #ccc;
+}
